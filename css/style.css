@@ -115,9 +115,18 @@ body {
 }
 
 @media only screen and (max-width: 1000px) {
+    .full-menu {
+        display: none;
+        width: 100%;
+        height: calc(var(--vh, 1vh) * 100);
+        position: absolute;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+    }
     .menu-inside {
         width: 100%;
-        height: 25vh;
+        height: calc(var(--vh, 1vh) * 25);
         position: relative;
         display: block;
         float: left;
