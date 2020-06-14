@@ -128,7 +128,7 @@ body {
         background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .4)), url("../img/1.jpg");
         background-repeat: no-repeat;
         background-position: center center;
-        height: 25vh;
+        height: calc(var(--vh, 1vh) * 25);
         padding-top: 10vh;
     }
     .menu2 {
@@ -136,7 +136,7 @@ body {
         background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .4)), url("../img/2.jpg");
         background-repeat: no-repeat;
         background-position: center center;
-        height: 25vh;
+        height: calc(var(--vh, 1vh) * 25);
         padding-top: 10vh;
     }
     .menu3 {
@@ -144,7 +144,7 @@ body {
         background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .4)), url("../img/3.jpg");
         background-repeat: no-repeat;
         background-position: center center;
-        height: 25vh;
+        height: calc(var(--vh, 1vh) * 25);
         padding-top: 10vh;
     }
     .menu4 {
@@ -152,7 +152,7 @@ body {
         background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .4)), url("../img/4.jpg");
         background-repeat: no-repeat;
         background-position: center center;
-        height: 25vh;
+        height: calc(var(--vh, 1vh) * 25);
         padding-top: 10vh;
     }
     .menu1:hover {
@@ -160,27 +160,27 @@ body {
         background: url("../img/1.jpg");
         background-repeat: no-repeat;
         background-position: center center;
-        height: 25vh;
+        height: calc(var(--vh, 1vh) * 25);
     }
     .menu2:hover {
         display: none;
         background: url("../img/2.jpg");
         background-repeat: no-repeat;
         background-position: center center;
-        height: 25vh;
+        height: calc(var(--vh, 1vh) * 25);
     }
     .menu3:hover {
         display: none;
         background: url("../img/3.jpg");
         background-repeat: no-repeat;
         background-position: center center;
-        height: 25vh;
+        height: calc(var(--vh, 1vh) * 25);
     }
     .menu4:hover {
         display: none;
         background: url("../img/4.jpg");
         background-repeat: no-repeat;
         background-position: center center;
-        height: 25vh;
+        height: calc(var(--vh, 1vh) * 25);
     }
 }
